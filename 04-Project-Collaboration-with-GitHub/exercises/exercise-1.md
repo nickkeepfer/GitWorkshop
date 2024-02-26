@@ -1,12 +1,12 @@
 # Exercise 1: Submitting Your First Pull Request
 
-This exercise guides you through the process of submitting a pull request (PR) to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop). You'll submit the `git_history.txt` file you created in a previous exercise, contributing to an actual project on GitHub.
+This exercise guides you through the process of submitting a pull request (PR) to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop). You'll submit the `git_history.txt` file you created in a previous exercise. Alternatively, for a more representative experience, go to `sorting.py` in this diretory, do you think you can improve my sorting function, prepare a better one. Bonus points for creativity.
 
 ## Objectives
 
 - Fork the GitWorkshop repository.
 - Clone your fork to your local machine.
-- Add your `git_history.txt` file to a new branch in your fork.
+- Add your `git_history.txt` file or a Python sorting function script to a new branch in your fork.
 - Push the branch to your fork on GitHub.
 - Submit a pull request to the original GitWorkshop repository.
 
@@ -30,16 +30,18 @@ cd GitWorkshop
 Create a new branch in your local repository for your contribution. This helps keep your changes organized and separate from the main project:
 
 ```bash
-git checkout -b add-git-history-YOUR-USERNAME
+git checkout -b YOUR-USERNAME
 ```
 
-### 4. Add Your git_history.txt File
+### 4. Add Your `git_history.txt` File or new proposal for a sorting function.
 
-Copy your `git_history.txt` file into the *root* of your local GitWorkshop repository. Then, add and commit this file to your branch:
+Copy your `git_history.txt` file into the *root* of your local GitWorkshop repository or make changes to the `sorting.py` file. Then, add and commit this file to your branch:
 
 ```bash
 git add git_history.txt
-git commit -m "Add git history for YOUR-USERNAME"
+OR
+git add sorting.py
+git commit -m "My amazing sorting function"
 ```
 
 ### 5. Push Your Changes
@@ -47,7 +49,7 @@ git commit -m "Add git history for YOUR-USERNAME"
 Push your branch and the changes to your fork on GitHub:
 
 ```bash
-git push origin add-git-history-YOUR-USERNAME
+git push origin YOUR-USERNAME
 ```
 
 ### 6. Submit a Pull Request
@@ -60,16 +62,15 @@ git push origin add-git-history-YOUR-USERNAME
 
 3. **Select Your Branch**:
     - Base branch: `main`.
-    - Compare branch: `add-git-history-YOUR-USERNAME`.
+    - Compare branch: `YOUR-USERNAME`.
 
 4. **Create Your Pull Request**:
     - Click "Create pull request".
-    - Title: `Adding git history for [Your Username]`.
+    - Title: `Adding new sorting function by [Your Username]`.
     - Description: Provide a brief summary of your changes and any notes on your submission.
 
 5. **Finalize**:
     - Review your pull request and then click "Create pull request" to submit.
-
 
 ## Conclusion
 

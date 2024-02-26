@@ -102,3 +102,20 @@ You'll navigate through a series of prompts to configure your setup. Here are th
 ## Note:
 While it's possible to perform local operations, GitHub has required the use of a Personal Access Token (PAT) instead of a password since 2021 to access remote repositories. This adds an extra step for authentication but enhances security. If you followed the above instructions you should have nothing to worry about, but if you use a different CLI you might need to make sure you handle this correctly
 
+## Extra Nuggets
+
+Change Default text editor to Vim (only if you actually want to use Vim)
+```bash
+git config --global core.editor "vim"`
+```
+
+Enable / Disable coloured output (Would reccomend this one)
+```bash
+git config --global color.ui true
+```
+
+Create aliases
+```bash
+git config --global alias.ci commit
+```
+This will create an alias such that you can use git ci as a shorthand for `git commit`

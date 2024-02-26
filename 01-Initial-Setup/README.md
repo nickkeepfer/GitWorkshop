@@ -7,7 +7,7 @@ Well done, you're now ready to procees.
 
 
 ## Opening a Terminal
-To install the CLI, you will likely need to use the terminal. This differs slightly based on which Operating System (OS) you are using. Please proceed with the relevant instructions for your given OS.
+This workshop will be operating near exclusively from the terminal. Opening one differs slightly based on which Operating System (OS) you are using. Please proceed with the relevant instructions for your given OS.
 
 ### Linux
 In Linux, you can open up a terminal using the GUI or simply use the shortcut button combination `ctrl`+`alt`+`t`
@@ -19,7 +19,7 @@ In Macos, you can use `command`+`spacebar` to open the search utility. then just
 
 ### Linux
 
-For Debian/Ubuntu-based distributions, use:
+For Debian/Ubuntu-based distributions, use the commands:
 
 ```bash
 sudo apt update

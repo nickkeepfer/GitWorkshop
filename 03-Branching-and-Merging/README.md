@@ -14,7 +14,7 @@ Branches are incredibly useful for managing new features, bug fixes, and experim
 
 ## Creating and Switching Branches
 
-You'll learn how to create new branches for features or fixes, switch between these branches, and integrate their changes into your main project through merging.
+In the exercise, you'll learn how to create new branches for features or fixes, switch between these branches, and integrate their changes into your main project through merging.
 
 ## Merging Changes
 
@@ -26,7 +26,7 @@ Sometimes, Git can't automatically merge changes, resulting in conflicts. You'll
 
 ## Exercises
 
-This section includes exercises to practice branching and merging:
+This section includes an exercise to practice branching and merging, find it here:
 
 - [Exercise 1: Branching and Merging Basics](./exercises/exercise-1.md)
 
@@ -34,5 +34,5 @@ Complete this exercise to get hands-on experience with managing branches and res
 
 ## Conclusion
 
-Mastering branching and merging is essential for any Git user, especially when collaborating on larger projects. This section will give you the confidence to manage your project's development more effectively.
+Mastering branching and merging is essential for any Git user, especially when collaborating on larger projects. Hopefully this section has given you the confidence to manage your project's development more effectively.
 

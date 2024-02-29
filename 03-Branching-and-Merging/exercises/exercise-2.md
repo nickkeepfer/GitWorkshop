@@ -37,7 +37,3 @@ In this exercise, you'll practice creating branches, making changes in those bra
     ```bash
     git merge feature-x
     ```
-
-## Conclusion
-
-Congratulations on successfully completing the exercise on branching and merging with Git! Through this hands-on practice, you've not only learned how to effectively manage multiple lines of development but also how to navigate the challenges of merging these changes back into a main line of development. Now proceed to exercise-2 to see what to do when a conflict arises.

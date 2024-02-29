@@ -1,6 +1,6 @@
 # Exercise 5: Submitting Your First Pull Request
 
-This exercise guides you through the process of submitting a pull request (PR) to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop). You'll submit the `git_history.txt` file you created in a previous exercise. Alternatively, for a more representative experience, go to `sorting.py` in this diretory, do you think you can improve my sorting function, prepare a better one. Bonus points for creativity.
+This exercise guides you through the process of submitting a pull request (PR) to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop). You'll submit the `git_history.txt` file you created in a previous exercise. Alternatively, for a more representative experience, go to `sorting.py` in this directory, do you think you can improve my sorting function? Prepare a better one (bonus points for creativity).
 
 ## Objectives
 
@@ -27,13 +27,13 @@ cd GitWorkshop
 
 ### 3. Create a New Branch
 
-Create a new branch in your local repository for your contribution. This helps keep your changes organized and separate from the main project:
+Create a new branch in your local repository for your contribution. This helps keep your changes organised and separate from the main project:
 
 ```bash
 git checkout -b YOUR-USERNAME
 ```
 
-### 4. Add Your `git_history.txt` File or new proposal for a sorting function.
+### 4. Add Your `git_history.txt` File or New Proposal for a Sorting Function.
 
 Copy your `git_history.txt` file into the *root* of your local GitWorkshop repository or make changes to the `sorting.py` file. Then, add and commit this file to your branch:
 
@@ -69,7 +69,7 @@ git push origin YOUR-USERNAME
     - Title: `Adding new sorting function by [Your Username]`.
     - Description: Provide a brief summary of your changes and any notes on your submission.
 
-5. **Finalize**:
+5. **Finalise**:
     - Review your pull request and then click "Create pull request" to submit.
 
 ## Conclusion

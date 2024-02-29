@@ -18,10 +18,11 @@ In this exercise, you'll learn how to use `git stash` to save changes temporaril
     git checkout -b feature-y
     ```
 
-1. **Make Temporary Changes**: In your current branch, make some changes to your project. Do not stage these changes. For instance, modify an existing file or create a new file:
+1. **Make Temporary Changes**: In your current branch, make some changes to your project and track them
 
     ```bash
     echo "Temporary changes" > temp.txt
+    git add temp.txt
     ```
 
 2. **Stash Your Changes**: Save your changes temporarily using `git stash`:
@@ -61,5 +62,5 @@ In this exercise, you'll learn how to use `git stash` to save changes temporaril
 
 ## Conclusion
 
-`git stash` is a powerful tool for managing your work in progress, allowing you to switch tasks without committing half-done work. This exercise has shown you how to stash changes, apply them, and manage multiple stashes. Understanding how to use `git stash` effectively can greatly enhance your workflow in multi-tasking environments.
+`git stash` is a powerful tool for managing your work in progress, allowing you to switch tasks without committing half-done work. Understanding how to use `git stash` effectively can greatly enhance your workflow in multi-tasking environments.
 

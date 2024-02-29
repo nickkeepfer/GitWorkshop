@@ -29,11 +29,11 @@ Learn how to use GitHub issues and discussions to communicate with your team and
 
 This section includes exercises to put your new skills into practice:
 
-- [Exercise 5 - Submitting Your First Pull Request](./exercises/exercise-5.md)
+- [Exercise 5: Submitting Your First Pull Request](./exercises/exercise-5.md)
 
 Complete this exercise to experience the process of contributing to a project on GitHub.
 
 ## Conclusion
 
-Collaborating on GitHub goes beyond just managing code. It's about building software together. By understanding and utilizing GitHub's collaboration tools, you can significantly enhance the efficiency and enjoyment of working on projects with others. Let's dive in!
+Collaborating on GitHub goes beyond just managing code. It's about building software together. By understanding and utilising GitHub's collaboration tools, you can significantly enhance the efficiency and enjoyment of working on projects with others. Let's dive in!
 

@@ -3,7 +3,7 @@
 ## Git Started
 This section will guide you on how to Install both Git and the Github Command Line Interface (CLI). Prior to first using GitHub, you will need to [Create an account](https://github.com/). Head there now, create an account and head straight back here.
 
-Well done, you're now ready to procees. 
+Well done, you're now ready to proceed. 
 
 
 ## Opening a Terminal
@@ -13,7 +13,7 @@ This workshop will be operating near exclusively from the terminal. Opening one 
 In Linux, you can open up a terminal using the GUI or simply use the shortcut button combination `ctrl`+`alt`+`t`
 
 ### MacOS
-In Macos, you can use `command`+`spacebar` to open the search utility. then just type `terminal` and click on the result `Terminal.app`, a terminal will be opened for you.
+In MacOS, you can use `command`+`spacebar` to open the search utility. Then just type `terminal` and click on the result `Terminal.app`, a terminal will be opened for you.
 
 ## Installing Git
 
@@ -33,7 +33,7 @@ sudo dnf install git
 
 ### MacOS
 
-Use Homebrew (reccomended) to install Git:
+Use Homebrew (recommended) to install Git:
 
 ```bash
 brew install git
@@ -60,11 +60,11 @@ git config --list
 ```
 
 ## Installing GitHub CLI
-Whilst GitHub is not strictly neccesary to enjoy the wonders of version control, its a very powerful tool and will help you share your projects seamlessly with your collaborators working on the same project. Before diving into your first GitHub project, lets ensure you're all set up with the necessary tools and access first. We will be doing this from the command line for maximum control, note however that there are various software packages with a GUI you could use instead, for example GitHub Desktop (not covered here).
+Whilst GitHub is not strictly necessary to enjoy the wonders of version control, it's a very powerful tool and will help you share your projects seamlessly with your collaborators working on the same project. Before diving into your first GitHub project, lets ensure you're all set up with the necessary tools and access first. We will be doing this from the command line for maximum control, note however that there are various software packages with a GUI you could use instead, for example GitHub Desktop (not covered here).
 
 ### Step 1: Create a GitHub Account
 
-You've done this already haven't you?! If not, sign up for a [Github account](https://github.com/) on their website. This is essential for managing and collaborating on projects hosted on GitHub, don't worry it's completely free!
+You've done this already, haven't you?! If not, sign up for a [Github account](https://github.com/) on their website. This is essential for managing and collaborating on projects hosted on GitHub, don't worry it's completely free!
 
 ### Step 2: Install Command Line Interface (CLI) Tools
 
@@ -109,7 +109,7 @@ Change Default text editor to Vim (only if you actually want to use Vim)
 git config --global core.editor "vim"`
 ```
 
-Enable / Disable coloured output (Would reccomend this one)
+Enable / Disable coloured output (Would recommend this one)
 ```bash
 git config --global color.ui true
 ```

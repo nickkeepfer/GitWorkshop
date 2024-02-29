@@ -1,6 +1,6 @@
-# Exercise 3 - Handling a Merge Conflict
+# Exercise 4 - Handling a Merge Conflict
 
-In real-world development scenarios, you'll often encounter merge conflicts. These occur when Git cannot automatically reconcile differences in code between two commits. Your task is to resolve these conflicts manually. Lets consider an example using Python where we want to introduce some functions that square and cube numbers.
+In real-world development scenarios, you'll often encounter merge conflicts. These occur when Git cannot automatically reconcile differences in code between two commits. Your task is to resolve these conflicts manually. Let's consider an example using Python where we want to introduce some functions that square and cube numbers.
 
 
 1. **Create a New Branch for a New Feature**: From your main branch, create another branch named `square-feature`:
@@ -9,7 +9,7 @@ In real-world development scenarios, you'll often encounter merge conflicts. The
 	git checkout -b square-feature
 	```
 
-2. **Make Changes in the New Feature Branch**: In this branch, lets create a Python script named `math_operations.py`. Add the following function to calculate the square of a number:
+2. **Make Changes in the New Feature Branch**: In this branch, let's create a Python script named `math_operations.py`. Add the following function to calculate the square of a number:
 
 	```python
 	def calculate(number):
@@ -71,7 +71,7 @@ Git will notify you of a conflict in `math_operations.py`.
 	def calculate_cube(number):
 	    return number ** 3
 	```
-	All thats left to do is save your changes and close the editor.
+	All that's left to do is save your changes and close the editor.
 
 6. **Finalize the Merge**: After resolving the conflict in the file, stage the file and commit the merge:
 

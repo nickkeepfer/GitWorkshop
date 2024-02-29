@@ -30,9 +30,9 @@ This section includes an exercise to practice branching and merging, find it her
 
 - [Exercise 2: Branching and Merging Basics](./exercises/exercise-2.md)
 - [Exercise 3: Understanding Git Stash](./exercises/exercise-3.md)
-- [Exercise 4 - Handling a Merge Conflict](./exercises/exercise-4.md)
+- [Exercise 4: Handling a Merge Conflict](./exercises/exercise-4.md)
 
-Complete this exercise to get hands-on experience with managing branches and resolving merge conflicts.
+Complete these exercises to get hands-on experience with managing branches and resolving merge conflicts.
 
 ## Conclusion
 

@@ -35,4 +35,4 @@ In this exercise, you'll create a very simple GitHub Actions workflow. This work
 5. **Check the Execution**: Navigate to the "Actions" tab of your GitHub repository to view the execution of your workflow. You should see a completed job that prints "Hello World" in the console output.
 
 ## Conclusion
-Congratulations, now you understand how Github actions work you can integrate CI/CD into your projects. It is reccomended you create lots of unit testing scripts that are run via CI, that way you can see when any change you make to your codebase breaks something unexpected elsewhere.
+Congratulations, now you understand how Github actions work you can integrate CI/CD into your projects. It is recommended you create lots of unit testing scripts that are run via CI, that way you can see when any change you make to your codebase breaks something unexpected elsewhere.

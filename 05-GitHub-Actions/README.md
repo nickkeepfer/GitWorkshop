@@ -10,7 +10,7 @@ Welcome to the section on GitHub Actions and CI/CD! GitHub Actions is a powerful
 
 ## Introduction to GitHub Actions
 
-GitHub Actions makes it easy to automate all your software workflows with CI/CD. Automations are configured with YAML files in the `.github/workflows` directory of your repository. YAML (Yet Another Markup Language) is a human-readable data serialization standard that can be used to configure your workflows in GitHub Actions. It allows you to describe your automation, scripting, and CI/CD tasks with a high degree of precision and readability. With YAML files, you can specify the triggers for your workflows, define the jobs to run, and outline each step within those jobs, including setting up the environment, running commands, and handling dependencies. 
+GitHub Actions makes it easy to automate all your software workflows with CI/CD. Automations are configured with YAML files in the `.github/workflows` directory of your repository. YAML (Yet Another Markup Language) is a human-readable data serialisation standard that can be used to configure your workflows in GitHub Actions. It allows you to describe your automation, scripting, and CI/CD tasks with a high degree of precision and readability. With YAML files, you can specify the triggers for your workflows, define the jobs to run, and outline each step within those jobs, including setting up the environment, running commands, and handling dependencies. 
 
 ### Key Concepts
 

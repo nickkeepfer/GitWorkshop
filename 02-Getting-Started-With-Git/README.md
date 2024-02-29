@@ -10,7 +10,7 @@ Now that your environment is set up, it's time to dive into using Git. This sect
 
 ## Creating Your First Repository
 
-Start by creating a new directory for your project, navigate into it, and initialize a new Git repository. From a terminal (in the location you want the project to be housed) type:
+Start by creating a new directory for your project, navigate into it, and initialise a new Git repository. From a terminal (in the location you want the project to be housed) type:
 
 ```bash
 mkdir my-first-repo
@@ -19,7 +19,7 @@ git init
 ```
 you should see something like `Initialised empty Git repository in /my/folder/structure/my-first-repo/.git/`.
 
-Congratulations, you are the proud owner of a git repository. That was easy, right? Now that's done, lets proceed by actually adding some files in there and commiting them.
+Congratulations, you are the proud owner of a git repository. That was easy, right? Now that's done, let's proceed by actually adding some files in there and committing them.
 
 ## Making Changes and Committing
 
@@ -27,7 +27,7 @@ Head right on over to the exercises directory:
 
  - [Exercise 1: Your First Git Commands](./exercises/exercise-1.md)
 
-This exercise will guide you through the process of making changes in a repository and tracking those changes with Git. Once completed, head back here to continue onwards with the Workshop
+This exercise will guide you through the process of making changes in a repository and tracking those changes with Git. Once completed, head back here to continue with the Workshop
 
 ## Conclusion
 

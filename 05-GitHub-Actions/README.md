@@ -28,7 +28,7 @@ To begin automating with GitHub Actions, you'll create workflows in a `.github/w
 
 To practice what you've learned, complete the following exercises:
 
-- [Exercise 5: Create a Simple CI Workflow](./exercises/exercise-5.md)
+- [Exercise 6: Create a Simple CI Workflow](./exercises/exercise-6.md)
 
 ## Conclusion
 

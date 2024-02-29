@@ -29,7 +29,7 @@ Learn how to use GitHub issues and discussions to communicate with your team and
 
 This section includes exercises to put your new skills into practice:
 
-- [Exercise 4 - Submitting Your First Pull Request](./exercises/exercise-4.md)
+- [Exercise 5 - Submitting Your First Pull Request](./exercises/exercise-5.md)
 
 Complete this exercise to experience the process of contributing to a project on GitHub.
 

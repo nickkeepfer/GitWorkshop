@@ -35,7 +35,7 @@ git checkout -b YOUR-USERNAME
 
 ### 4. Add Your `git_history.txt` File or New Proposal for a Sorting Function.
 
-Copy your `git_history.txt` file into the *root* of your local GitWorkshop repository or make changes to the `sorting.py` file. Then, add and commit this file to your branch:
+Copy your `git_history.txt` file from your previous repository into the *root* of your local GitWorkshop repository or make changes to the `sorting.py` file. Then, add and commit this file to your branch:
 
 ```bash
 git add git_history.txt

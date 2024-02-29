@@ -28,7 +28,8 @@ Sometimes, Git can't automatically merge changes, resulting in conflicts. You'll
 
 This section includes an exercise to practice branching and merging, find it here:
 
-- [Exercise 1: Branching and Merging Basics](./exercises/exercise-1.md)
+- [Exercise 2: Branching and Merging Basics](./exercises/exercise-2.md)
+- [Exercise 3 - Handling a Merge Conflict](./exercises/exercise-3.md)
 
 Complete this exercise to get hands-on experience with managing branches and resolving merge conflicts.
 

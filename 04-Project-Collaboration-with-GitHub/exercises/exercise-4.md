@@ -1,4 +1,4 @@
-# Exercise 1: Submitting Your First Pull Request
+# Exercise 4: Submitting Your First Pull Request
 
 This exercise guides you through the process of submitting a pull request (PR) to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop). You'll submit the `git_history.txt` file you created in a previous exercise. Alternatively, for a more representative experience, go to `sorting.py` in this diretory, do you think you can improve my sorting function, prepare a better one. Bonus points for creativity.
 

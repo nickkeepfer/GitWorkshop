@@ -25,7 +25,7 @@ Congratulations, you are the proud owner of a git repository. That was easy, rig
 
 Head right on over to the exercises directory:
 
-    Exercise 1: Your First Git Commands
+ - [Exercise 1: Your First Git Commands](./exercises/exercise-1.md)
 
 This exercise will guide you through the process of making changes in a repository and tracking those changes with Git. Once completed, head back here to continue onwards with the Workshop
 

@@ -6,7 +6,7 @@ Welcome to the Linux/MacOS part of the mini-workshop on Git and GitHub! This rep
 
 - The basics of version control.
 - How to install and configure Git on Linux and MacOS.
-- Fundamental Git operations: commit, merge, rebase, and more.
+- Fundamental Git operations: commit, push, merge, and more.
 - Advanced Git features: branching strategies, stashing, conflict resolution.
 - Collaborating on projects using GitHub: forks, pull requests, issues.
 

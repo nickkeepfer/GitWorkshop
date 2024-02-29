@@ -6,7 +6,7 @@ This exercise guides you through the process of submitting a pull request (PR) t
 
 - Fork the GitWorkshop repository.
 - Clone your fork to your local machine.
-- Add your `git_history.txt` file or a Python sorting function script to a new branch in your fork.
+- Add your improved Python sorting function script to a new branch in your fork.
 - Push the branch to your fork on GitHub.
 - Submit a pull request to the original GitWorkshop repository.
 

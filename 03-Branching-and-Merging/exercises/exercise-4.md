@@ -82,3 +82,7 @@ Git will notify you of a conflict in `math_operations.py`.
 
     This commit will complete the merge process, incorporating the changes into the main branch while resolving the conflict.
 
+7. **Cleanup**: It's now probably safe to delete the branch we made, remember we can do this with:
+    ```bash
+    git branch -d square-feature
+    ```

@@ -37,3 +37,18 @@ In this exercise, you'll practice creating branches, making changes in those bra
     ```bash
     git merge feature-x
     ```
+
+5. **Delete the branch**: If you're finished with this branch, you can now safely delete it with
+
+    ```bash
+    git branch -d feature-x
+    ```
+
+# Note
+You can delete branches on remote repositories using 
+```bash
+git push origin --delete branch-name
+```
+
+# Summary
+You have successfully created a branch, made some changes, merged these into the main branch and then deleted the feuature branch, nice work! 

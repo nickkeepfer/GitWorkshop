@@ -30,13 +30,6 @@ In this exercise, you'll put into practice the basic Git commands to create a re
 
 6. **Review Your History**: Use the `git log` command to view your commit history.
 
-7. **Export Your Git Log**: Let's capture the commit history and put it in a file, run the following command in your repository:
-
-    ```bash
-    git log > git_history.txt
-    ```
-    you do not need to do this outside of the workshop, this is just useful for a future exercise in the workshop.
-
 ## Mission Complete
-You have successfully pushed your first commit. Understanding these basic Git operations is the first step towards effective version control and collaboration. Show Me, Gary or Tom your git_history.txt to verify everything went smoothly or call us over if something looks wrong. 
+You have successfully pushed your first commit. Understanding these basic Git operations is the first step towards effective version control and collaboration. Show Me, Gary or Tom your git log to verify everything went smoothly or call us over if something looks wrong. 
 

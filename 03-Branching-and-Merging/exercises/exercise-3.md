@@ -48,17 +48,11 @@ In this exercise, you'll learn how to use `git stash` to save changes temporaril
     git stash pop
     ```
 
-3. **List Stashes**: If you have multiple stashes, you can list them to see all your stashed changes:
+3. **Check Status**: Check the status of with `git status` and you should see that `temp.txt` has returned to the staging area. You can do that with
 
-    ```bash
-    git stash list
-    ```
-
-4. **Apply a Specific Stash**: If needed, apply a specific stash by using its identifier from the stash list:
-
-    ```bash
-    git stash apply stash@{0}
-    ```
+```bash
+git status
+```
 
 ## Conclusion
 

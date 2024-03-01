@@ -58,4 +58,8 @@ git push -u origin main
 
 ## Conclusion
 
-Congratulations! You have successfully created a new Git project, initialized a Git repository, linked it to GitHub, and pushed your initial commit. This foundational knowledge is crucial for version control and collaboration with Git and GitHub.
+Congratulations! You have successfully created a new Git project, initialized a Git repository, linked it to GitHub, and pushed your initial commit. From here on you can just push any updates with
+```bash
+git push
+```
+making sure you have stages any changes and committed them first!

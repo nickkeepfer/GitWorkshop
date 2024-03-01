@@ -1,75 +1,61 @@
-# Exercise 5: Submitting Your First Pull Request
+# Exercise 5: Starting Your Git Project and Linking it to GitHub
 
-This exercise guides you through the process of submitting a pull request (PR) to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop).
+This exercise will guide you through the process of creating a new Git project, initializing a Git repository, and linking it to a new GitHub repository.
 
 ## Objectives
 
-- Fork the GitWorkshop repository.
-- Clone your fork to your local machine.
-- Add your improved Python sorting function script to a new branch in your fork.
-- Push the branch to your fork on GitHub.
-- Submit a pull request to the original GitWorkshop repository.
+- Create a new repository on GitHub.
+- Initialize a local Git repository.
+- Link your local repository to GitHub.
+- Push your initial commit to GitHub.
 
 ## Instructions
 
-### 1. Fork the Repository
+### 1. Create a New Repository on GitHub
 
-Navigate to the [GitWorkshop repository](https://github.com/nickkeepfer/GitWorkshop) on GitHub. Click the "Fork" button in the top-right corner of the page to create a copy of the repository in your GitHub account.
+1. **Go to GitHub**: Open your web browser and navigate to [GitHub](https://github.com).
+2. **New Repository**: Click on the "+" icon in the top-right corner and select "New repository".
+3. **Repository Details**: Enter your repository name as `username/demo`. Replace `username` with your actual GitHub username. Leave other settings as default or adjust according to your preference. Click "Create repository".
 
-### 2. Clone Your Fork
+### 2. Initialize Your Local Git Repository
 
-Clone the forked repository to your local machine. Replace `YOUR-USERNAME` with your actual GitHub username:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/GitWorkshop.git
-cd GitWorkshop
-```
-
-### 3. Create a New Branch
-
-Create a new branch in your local repository for your contribution. This helps keep your changes organised and separate from the main project:
+Open your terminal or command prompt and execute the following commands:
 
 ```bash
-git checkout -b YOUR-USERNAME
+echo "# demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
 ```
 
-### 4. Add Your Proposal for an Improved Sorting Function.
+This sequence creates a new file README.md, initializes a Git repository, stages the README.md file, and commits it with a message "first commit".
 
-Make suitable changes to the `sorting.py` file. Then, add and commit this file to your branch:
+### 3. Link Your Local Repository to GitHub
 
+Replace username with your actual GitHub username in the URL:
 ```bash
-git add sorting.py
-git commit -m "My amazing sorting function"
+git remote add origin https://github.com/username/demo.git
+git branch -M main
+git push -u origin main
 ```
+These commands add a remote named origin pointing to your GitHub repository, rename the current branch to main, and push your commits to GitHub.
 
-### 5. Push Your Changes
+### 4. Verify Your Repository on GitHub
 
-Push your branch and the changes to your fork on GitHub:
+1. Navigate to Your Repository: Go to `https://github.com/username/demo` in your web browser. Replace username with your GitHub username.
+2. Check Your Files: You should see the README.md file and your commit message.
 
+## If You Already Have a Full Repository
+
+If your repository is already initialized and you're looking to link and push it to GitHub, use the following commands after creating your GitHub repository:
 ```bash
-git push origin YOUR-USERNAME
+cd myworkingdir
+git init
+git remote add origin https://github.com/username/demo.git
+git branch -M main
+git push -u origin main
 ```
-
-### 6. Submit a Pull Request
-
-1. **Navigate to Your Fork**: Go to `https://github.com/YOUR-USERNAME/GitWorkshop`.
-
-2. **Start the Pull Request**:
-    - Click on "Pull requests" > "New pull request".
-    - Ensure the base repository is set to `nickkeepfer/GitWorkshop` and the head repository to your fork.
-
-3. **Select Your Branch**:
-    - Base branch: `main`.
-    - Compare branch: `YOUR-USERNAME`.
-
-4. **Create Your Pull Request**:
-    - Click "Create pull request".
-    - Title: `Adding new sorting function by [Your Username]`.
-    - Description: Provide a brief summary of your changes and any notes on your submission.
-
-5. **Finalise**:
-    - Review your pull request and then click "Create pull request" to submit.
 
 ## Conclusion
 
-Submitting a pull request is a fundamental aspect of collaborating on GitHub. Through this exercise, you've taken an important step in your journey as a developer, contributing to a project and practicing essential Git and GitHub workflows. This experience will serve you well in future projects, open-source contributions, and collaborative development efforts.
+Congratulations! You have successfully created a new Git project, initialized a Git repository, linked it to GitHub, and pushed your initial commit. This foundational knowledge is crucial for version control and collaboration with Git and GitHub.

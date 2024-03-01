@@ -1,4 +1,4 @@
-# Exercise 6: Create a Simple CI Workflow with Hello World
+# Exercise 7: Create a Simple CI Workflow with Hello World
 
 In this exercise, you'll create a very simple GitHub Actions workflow. This workflow will print "Hello World" to the console whenever code is pushed to your repository. This is a foundational step to understand how GitHub Actions workflows are structured and triggered.
 
